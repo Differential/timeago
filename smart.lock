@@ -1,0 +1,15 @@
+{
+  "meteor": {},
+  "dependencies": {
+    "basePackages": {
+      "timeago": {
+        "path": "."
+      }
+    },
+    "packages": {
+      "timeago": {
+        "path": "."
+      }
+    }
+  }
+}

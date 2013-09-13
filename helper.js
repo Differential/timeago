@@ -1,5 +1,4 @@
 if (typeof Handlebars !== 'undefined') {
-  console.log(Handlebars)
   Handlebars.registerHelper("timeago", function(date) {
     var dateObj;
     if (date) {
