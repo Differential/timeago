@@ -1,3 +1,7 @@
+if (typeof Package.ui != 'undefined') {
+  var Handlebars = Package.ui.Handlebars
+};
+    
 if (typeof Handlebars !== 'undefined') {
   Handlebars.registerHelper("timeago", function(date, options) {
     override = options.hash['default']
