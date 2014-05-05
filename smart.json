@@ -3,7 +3,7 @@
   "description": "A Handlebars helper to easily do timeago from a date stamp",
   "homepage": "https://github.com/Differential/timeago",
   "author": "Josh Owens (http://differential.io)",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "git": "https://github.com/Differential/timeago.git",
   "packages": {
   }
