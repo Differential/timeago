@@ -1,9 +1,14 @@
 Package.describe({
-  summary: "Add a timeago helper method that uses jquery-timeago function"
+  name: "joshowens:timeago",
+  summary: "A Handlebars helper to easily do timeago from a date stamp.",
+  version: "0.0.5",
+  git: "https://github.com/Differential/timeago.git"
 });
 
-Package.on_use(function(api) {
-  api.use(['handlebars'], 'client');
-  api.add_files(['timeago/jquery.timeago.js'], 'client');
-  api.add_files(['helper.js'], 'client');
+Package.onUse(function(api) {
+  api.versionsFrom('METEOR@0.9.1');
+
+  api.use(['blaze'], 'client');
+  api.addFiles(['timeago/jquery.timeago.js'], 'client');
+  api.addFiles(['helper.js'], 'client');
 });
